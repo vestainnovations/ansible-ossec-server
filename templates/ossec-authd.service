@@ -5,4 +5,4 @@ Description=Wazuh authd
 EnvironmentFile=/etc/ossec-init.conf
 Environment=DIRECTORY=/var/ossec
 
-ExecStart=/usr/bin/env ${DIRECTORY}/bin/ossec-authd -p 1515
+ExecStart=/usr/bin/env ${DIRECTORY}/bin/ossec-authd -p 1515 -f
